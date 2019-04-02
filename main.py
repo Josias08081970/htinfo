@@ -51,20 +51,3 @@ while True:
             print(l.get('href'))
     else:
         print("Essa opção não existe")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
