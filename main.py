@@ -17,12 +17,15 @@ sopinha = BeautifulSoup(html, 'html.parser')
 
 def opcao():
     banner = """
-    +------------------------------------------------+
-    |                    HTINFO                      |
-    | Ferramenta para colher dados pelo código fonte |
-    |           Criada por: Ryan Aragão              |
-    |        https://github.com/RyanAragao2          |
-    +------------------------------------------------+
+    __ __  ______  ____  ____   _____   ___  
+    |  T  T|      Tl    j|    \ |     | /   \ 
+    |  l  ||      | |  T |  _  Y|   __jY     Y
+    |  _  |l_j  l_j |  | |  |  ||  l_  |  O  |
+    |  |  |  |  |   |  | |  |  ||   _] |     |
+    |  |  |  |  |   j  l |  |  ||  T   l     !
+    l__j__j  l__j  |____jl__j__jl__j    \___/ 
+   
+        https://github.com/RyanAragao2
     """
     print(colored.yellow(banner))
     print("0- Sair da Ferramenta")
