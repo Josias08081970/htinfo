@@ -1,4 +1,4 @@
-# HTINFO
+# HtINFO
 HtInfo vai pegar todo o código fonte de um site e organiza-lo, para utilizar basta apenas digitar o número da opção requerida e fazer sua análise de forma objetiva e organizada.
 
 # Módulos Requeridos
