@@ -32,6 +32,7 @@ def opcao():
     print("1- Procurar Imagens")
     print("2- Procurar Títulos")
     print("3- Pegar Todos os Links do site")
+    print("4- Pesquisar por algo Específico")
 
 
 opcao()
@@ -52,5 +53,10 @@ while True:
         links = sopinha.find_all('a')
         for l in links:
             print(l.get('href'))
+    elif opcaozinha == 4:
+        especifico = input("Coloque o que deseja procurar no Código Fonte: ")
+        especifico2 = sopinha.find_all(especifico)
+        for e in especifico2:
+            print(especifico2)
     else:
         print("Essa opção não existe")
